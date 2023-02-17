@@ -1,0 +1,7 @@
+---
+- name: Installation.
+  yum:
+    name:
+      - postfix
+      - dovecot
+    state: present
